@@ -11,3 +11,7 @@ setopt long_list_jobs
 ## pager
 export PAGER=less
 export LC_CTYPE=$LANG
+
+## editors
+alias subl="open -a Sublime\ Text\ 3"
+export EDITOR=vim
