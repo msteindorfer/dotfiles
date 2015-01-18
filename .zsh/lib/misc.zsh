@@ -15,3 +15,5 @@ export LC_CTYPE=$LANG
 ## editors
 alias subl="open -a Sublime\ Text\ 3"
 export EDITOR=vim
+
+alias timestamp="date +'%Y%m%d_%H%M'"
