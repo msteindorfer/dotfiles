@@ -1,0 +1,21 @@
+[ui]
+username = Michael Steindorfer <michael.steindorfer@cwi.nl>
+merge = Kaleidoscope
+
+[extensions]
+mercurial_keyring =
+hgext.extdiff =
+purge =
+shelve =
+transplant =
+rebase =
+hggit = 
+
+[extdiff]
+cmd.ksdiff = /usr/local/bin/ksdiff
+opts.ksdiff = --changeset --wait --filelist
+
+[merge-tools]
+Kaleidoscope.executable = /usr/local/bin/ksdiff
+Kaleidoscope.args = --merge --output $output --base $base -- $local $other
+
