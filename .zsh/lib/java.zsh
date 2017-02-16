@@ -9,3 +9,6 @@ alias eclipse-fmt="eclipse -noSplash -application org.eclipse.jdt.core.JavaCodeF
 
 # http://nitschinger.at/Printing-JVM-generated-Assembler-on-Mac-OS-X/
 export LD_LIBRARY_PATH=$HOME/lib
+
+# more memory to maven (stack & heap)
+export MAVEN_OPTS="-Xms512m -Xmx1024m -Xss16m"

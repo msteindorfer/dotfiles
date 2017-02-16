@@ -13,3 +13,6 @@ ln -s dotfiles/.zshrc ~
 ln -s dotfiles/.hgrc ~
 sudo easy_install keyring
 sudo easy_install mercurial_keyring
+
+# go.zsh
+mkdir /usr/local/goworkspace
